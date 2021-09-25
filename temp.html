@@ -13,16 +13,15 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body onload="is_switched();" id="bodyid" class="scrollspy white">
-    <!--redirect to bio--><meta http-equiv="refresh" content="0; URL=bio.html" />
   <!--navbar start-->
   <div class="navbar-fixed">
   <nav class="nav-extended teal">
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right">
         <li><form action="#"></form><div class="switch"><label for="mode"><input id="mode" type="checkbox" onclick="is_switched()"><span id="switch_color" class="lever white"></span></label></div></form></li>
-        <li class="active"><a id="langit" class="white_text" href="./">IT</a></li>
-        <li><a id="langen" class="white_text" href="./en/">EN</a></li>
-        <li><a id="langsi" class="white_text" href="./si/">SI</a></li>
+        <li class="active"><a id="langit" class="white_text" href="./bio.html">IT</a></li>
+        <li><a id="langen" class="white_text" href="./en/bio.html">EN</a></li>
+        <li><a id="langsi" class="white_text" href="./si/bio.html">SI</a></li>
       </ul>
       <ul id="nav-mobile" class="left">
         <li><a href="#" class="sidenav-trigger show-on-large" data-target="menu-side"><i id="sidenav_button" class="material-icons white-text">menu</i></a></li>
@@ -43,24 +42,89 @@
     </li> 
   </ul>
   <!--sidenav stop--> 
-  <!--content start-->
-    <h1 class="header center orange-text scrollspy">IT</h1>
-  <!--content end-->
-  <!--to top button start-->
-  <div class="fixed-action-btn">
-    <a href="#bodyid" class="btn-floating btn-large waves-effect waves-light teal">
-      <i class="material-icons white-text" id="tastosu">expand_less</i>
-    </a>
-  </div>
-  <!--to top button stop-->
+  <!--space start-->
+  <br>
+  <br>
+  <!--space stop-->
+  <!--info start-->
+  <div class="row">
+    <div class="col s4 m4">
+      <div class="card">
+        <div class="card-image">
+          <img id="prof_pic" class="white" src="images/profile_picture_trasparent.png">
+        </div>
+        <div class="card-content teal">
+          <p>Sono Samuel Fischer.</p>
+        </div>
+      </div>
+    </div>
+    <!--place holder start-->
+    <div class="col s4 m3">
+      <div class="card">
+      </div>
+    </div>
+    <!--place holder end-->
+    <!--info card-->
+    <div class="col s4 m4">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="card teal">
+        <div class="card-action">
+          <a href="https://github.com/samux6146">GitHub</a><span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>
+        </div>
+        <div class="card-action">
+          <a href="https://twitter.com/samux6146">Twiter</a><span class="iconify" data-icon="akar-icons:twitter-fill" data-inline="false"></span>
+        </div>
+        <div class="card-action">
+          <a href="https://www.youtube.com/channel/UCcxzof3mXC6CSJ2P3MuiCzg">YouTube</a><span class="iconify" data-icon="akar-icons:youtube-fill" data-inline="false"></span>
+        </div>
+        <div class="card-action">
+          <a href="mailto:it.fischer.samuel@gmail.com">it.fischer.samuel@gmail.com</a><span class="iconify" data-icon="dashicons-email-alt" data-inline="false"></span>
+        </div>
+      </div>
+    </div>
+  <!--info end-->
   <script type="text/javascript" src="js/materialize.min.js"></script>
- </body>
  <!--bootom bar start-->
-  <div class="footer-copyright teal scrollspy">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <div class="footer-copyright teal scrollspy">
     <div class="container black-text">
     © 2021 Copyright Samux6146
     </div>
- </footer>     
+</div>    
 <!--bottom bar end-->
 </html>
 
@@ -113,6 +177,9 @@
       document.getElementById('side1').setAttribute("class", "black-text");
       document.getElementById('side2').setAttribute("class", "black-text");
       document.getElementById('side3').setAttribute("class", "black-text");
+      /*profile picture*/
+      document.getElementById('prof_pic').removeAttribute("class","white");
+      document.getElementById('prof_pic').setAttribute("class", "black");
       /*save theme*/
       localStorage.setItem('dark', 'true');
     }
@@ -148,9 +215,13 @@
       document.getElementById('side1').setAttribute("class", "white-text");
       document.getElementById('side2').setAttribute("class", "white-text");
       document.getElementById('side3').setAttribute("class", "white-text");
+       /*profile picture*/
+      document.getElementById('prof_pic').removeAttribute("class","black");
+      document.getElementById('prof_pic').setAttribute("class", "white");
       /*save theme*/
       localStorage.setItem('dark', 'false');
     }
   }
   /*theme switch stop*/
 </script>
+</body>
