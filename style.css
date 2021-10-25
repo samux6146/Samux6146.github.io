@@ -2,7 +2,14 @@ body{
    background-image: url("../images/background.png"); 
    font-family: 'Zen Kurenaido', sans-serif;
    font-size: 20px;
+   -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+     overflow-y: scroll; 
 }
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
 
 .card {
     background-color: #212529;
