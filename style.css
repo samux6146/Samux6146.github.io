@@ -1,0 +1,19 @@
+body{
+   background-image: url("../images/background.png"); 
+   font-family: 'Zen Kurenaido', sans-serif;
+   font-size: 20px;
+}
+
+.card {
+    background-color: #212529;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.round_border {
+    border-radius: 25px;
+}
