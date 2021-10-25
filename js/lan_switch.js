@@ -22,7 +22,8 @@ function language_en(){
     document.getElementById("landrop").textContent="EN"
     localStorage.setItem('language', "EN");
 
-    document.getElementById("me_card_text").textContent="I am Samuel Fischer, an italian developer with the passion of learning new things!"
+    document.getElementById("me_card_text").textContent="I am Samuel Fischer, an italian developer with the passion of learning new things! my "
+    document.getElementById("pictures_id").textContent="Pictures"
     document.getElementById("prog_lan").textContent="Coding skils"
     document.getElementById("project_id").textContent="Projects"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "View the site!";});
@@ -41,6 +42,7 @@ function language_it(){
     localStorage.setItem('language', "IT");
 
     document.getElementById("me_card_text").textContent="Sono Samuel Fischer, un developer italiano con la passione di imparare sempre nuove cose!"
+    document.getElementById("pictures_id").textContent="Fotografie"
     document.getElementById("prog_lan").textContent="Abilità di coding"
     document.getElementById("project_id").textContent="Progetti"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "Visita il sito!";});
@@ -59,6 +61,7 @@ function language_si(){
     localStorage.setItem('language', "SI");
 
     document.getElementById("me_card_text").textContent="Jaz sem Samuel Fischer, italjansk coder z voljo se vedno učiti nekaj novega!"
+    document.getElementById("pictures_id").textContent="Fotografije"
     document.getElementById("prog_lan").textContent="sposobnosti kodiranja"
     document.getElementById("project_id").textContent="Projekti"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "Oglej si stran!";});
