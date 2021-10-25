@@ -33,7 +33,7 @@ function language_it(){
     localStorage.setItem('language', "IT");
 
     document.getElementById("me_card_text").textContent="Sono Samuel Fischer, un developer italiano con la passione di imparare sempre nuove cose!"
-    document.getElementById("prog_lan").textContent="Abilità di programmazione"
+    document.getElementById("prog_lan").textContent="Abilità di coding"
     document.getElementById("project_id").textContent="Progetti"
 }
 
@@ -42,7 +42,7 @@ function language_si(){
     localStorage.setItem('language', "SI");
 
     document.getElementById("me_card_text").textContent="si"
-    document.getElementById("prog_lan").textContent="sposobnosti programiranja"
+    document.getElementById("prog_lan").textContent="sposobnosti kodiranja"
     document.getElementById("project_id").textContent="Projekti"
 }
 
