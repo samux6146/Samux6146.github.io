@@ -15,7 +15,7 @@ function language_set(){
         language_si()
     }
     else{
-        language_en
+        language_en()
     }
 }
 
