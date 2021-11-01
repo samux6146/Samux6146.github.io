@@ -21,6 +21,7 @@ function language_set(){
 function language_en(){
     document.getElementById("landrop").textContent="EN"
     localStorage.setItem('language', "EN");
+    language = "EN"
 
     document.getElementById("nav-home").textContent="Home"
     document.getElementById("nav-about").textContent="About Me"
@@ -50,6 +51,7 @@ function language_en(){
 function language_it(){
     document.getElementById("landrop").textContent="IT"
     localStorage.setItem('language', "IT");
+    language = "IT"
 
     document.getElementById("nav-home").textContent="Casa"
     document.getElementById("nav-about").textContent="Di me"
@@ -79,6 +81,7 @@ function language_it(){
 function language_si(){
     document.getElementById("landrop").textContent="SI"
     localStorage.setItem('language', "SI");
+    language = "SI"
 
     document.getElementById("nav-home").textContent="Dom"
     document.getElementById("nav-about").textContent="O meni"
