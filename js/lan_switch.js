@@ -37,7 +37,8 @@ function language_en(){
     document.getElementById("project_id").textContent="Projects"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "View the site!";});
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_repo"), function(t) {t.textContent = "Repo on GitHub";});
-    document.getElementById("contact").textContent="Contacts"
+    document.getElementById("contact").textContent="Contact me on:"
+    document.getElementById("form_text").textContent="Or fill this form:"
 
     document.getElementById("c1_des").textContent="The OpenSource project of this website!"
     document.getElementById("c2_des").textContent="The project of how i installed mac os 10.13 high sierra on my Lenovo Thinkpad T420."
@@ -65,7 +66,8 @@ function language_it(){
     document.getElementById("project_id").textContent="Progetti"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "Visita il sito!";});
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_repo"), function(t) {t.textContent = "Repo su GitHub";});
-    document.getElementById("contact").textContent="Contatti"
+    document.getElementById("contact").textContent="Contatami qui:"
+    document.getElementById("form_text").textContent="O riempi questo:"
 
     document.getElementById("c1_des").textContent="Il progetto open source di questo sito!"
     document.getElementById("c2_des").textContent="Il progetto di come ho installato mac os 10.13 high sierra sul mio Lenovo Thinkpad T420."
@@ -93,7 +95,8 @@ function language_si(){
     document.getElementById("project_id").textContent="Projekti"
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_try"), function(t) {t.textContent = "Oglej si stran!";});
     Array.prototype.map.call(document.querySelectorAll(".lang_card_but_repo"), function(t) {t.textContent = "Repo na GitHub";});
-    document.getElementById("contact").textContent="Kontakti"
+    document.getElementById("contact").textContent="Pišimi tukaj"
+    document.getElementById("form_text").textContent="Ali izpolni to:"
 
     document.getElementById("c1_des").textContent="Project OpenSource od te spletne strani!"
     document.getElementById("c2_des").textContent="Projekt o kako sem installiral mac os 10.13 high sierra na moj Lenovo Thinkpad T420."

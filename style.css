@@ -24,3 +24,7 @@ body::-webkit-scrollbar {
 .round_border {
     border-radius: 25px;
 }
+
+.upper {
+    text-transform: capitalize;
+}
