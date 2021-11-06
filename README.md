@@ -1,5 +1,5 @@
 # Samux6146.github.io
-My personal website made with html and bootstrap.
+My personal website made with html and bootstrap css.
 
 I simply wanted a website so i made one.
 
